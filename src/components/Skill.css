@@ -92,3 +92,15 @@
     transform: scale(1.1);
     box-shadow: 5px 5px lightblue;
 }
+
+@media screen and (max-width: 481px) {
+  .text-skill button {
+    width: 100%;
+  }
+  
+  .text-skill {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+}
