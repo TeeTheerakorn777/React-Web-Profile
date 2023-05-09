@@ -34,7 +34,7 @@ function Project() {
                                     <p>Responsive : 390px</p>
                                 </div>
                                 <div className="btn-title">
-                                    <button>View</button>
+                                <a href="https://clone-figma-template.netlify.app/?fbclid=IwAR2COAuyHsgrGkeybX6UwxwrD3qOwxfo1X_cfr1nK9YgZ9ftTauZWUYmqDo"><button>View</button></a>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +56,7 @@ function Project() {
                                     <p>Responsive : 428px, 768px</p>
                                 </div>
                                 <div className="btn-title">
-                                    <a href=""><button>View</button></a>
+                                    <a href="https://react-frofile-me.netlify.app/?fbclid=IwAR10A9EbIG9FAc8iha5nAnXVAauh4HioOmitDtFVGKwuGKi9pOTZvuwzDt4"><button>View</button></a>
                                 </div>
                             </div>
                         </div>
