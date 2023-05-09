@@ -1,0 +1,94 @@
+.container-skill {
+    margin-top: 2rem;
+    height: 100%;
+    position: relative;
+}
+
+.text-skill {
+    height: 50px;
+    padding: 0 1rem;
+}
+
+.text-skill button {
+    border: 2px solid;
+    border-radius: 50px;
+    border-width: .2rem;
+    animation: rainbow-border 3s linear infinite;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    align-items: center;
+    pointer-events: none;
+    outline: none;
+    background: rgba(0,0,0,0.1);
+    color: white;
+    font-weight: bold;
+}
+
+@keyframes rainbow-border {
+    0% {
+      border-color: #FF0000;
+    }
+    16.67% {
+      border-color: #FF7F00;
+    }
+    33.33% {
+      border-color: #FFFF00;
+    }
+    50% {
+      border-color: #00FF00;
+    }
+    66.67% {
+      border-color: #0000FF;
+    }
+    83.33% {
+      border-color: #4B0082;
+    }
+    100% {
+      border-color: #9400D3;
+    }
+  }
+
+.con-card {
+    height: auto;
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    margin: 1rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+}
+
+
+.skill .fa-css3-alt,
+.skill .fa-html5,
+.skill .fa-js,
+.skill .fa-php,
+.skill .fa-react,
+.skill .fa-git-alt,
+.skill .fa-github {
+    font-size: 6rem;
+}
+
+.skill img {
+    width: 40%;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px lightblue;
+}

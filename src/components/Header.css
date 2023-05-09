@@ -1,0 +1,104 @@
+.header-con {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.logo-container h1 {
+    background: linear-gradient(135deg,#ff00d2,#fed90f, #00a2ff, #09f1b8,#ff00d2,#fed90f, #00a2ff, #09f1b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    animation: amimate 8s ease-in-out infinite;
+    background-size: 300% 300%;
+    font-size: 2.5rem;
+}
+
+@keyframes amimate {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li {
+    padding-right: 3rem;
+    font-weight: bold;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.menu-link a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #fff,
+     0 0 20px #fff,
+     0 0 40px #fff
+    ;
+}
+
+
+@media screen and (max-width: 481px) {
+    .mobile-menu {
+        display: block;
+        color: #fff;
+        font-size: 2rem;
+    }
+
+    .header-con {
+        padding: 0 2rem;
+    }
+
+    .menu {
+        width: 280px;
+        height: auto;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        right: 3rem;
+        transition: transform 0.5s ease-in;
+        display: none;
+        transform: translateY(-100%);
+    }
+
+    .menu.active {
+        background: rgba(0, 0, 0, 0.9);
+        top: 64px;
+        display: flex;
+        z-index: 1;
+        align-content: center;
+        transition: transform 0.5s ease-out;
+        border-radius: 20px;
+        justify-content: center;
+        transform: translateY(0);
+    }
+
+    .menu li {
+        font-size: 1rem;
+    }
+
+    .menu-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 10vw;
+        padding: 1.2rem 0;
+    }
+
+}
