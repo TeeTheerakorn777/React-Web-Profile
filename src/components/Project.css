@@ -266,4 +266,66 @@
 
 }
 
+@media screen and (max-width: 391px) {
+    .con-project {
+        width: 320px;
+    }
+
+    .con-title {
+        width: 150px;
+        margin-left: 10rem;
+    }
+
+    .tile h3{
+        font-size: .7rem;
+    }
+
+    .info1 .fa-react, .info1 .fa-css3-alt, .info .fa-js, .info .fa-html5, .info .fa-css3-alt{
+        font-size: 2rem;
+        padding: 0 0.3rem;
+    }
+
+    .info {
+        top: 2.7rem;
+        left: 1.4rem;
+    }
+
+    .text-figma {
+        font-size: .7rem;
+        left: 1.7rem;
+    }
+
+    .btn-title {
+        left: 1.9rem;
+    }
+
+    .tile1 h3{
+        font-size: .8rem;
+    }
+    
+    .tile1 {
+        right: 2.2rem;
+    }
+
+    .info1 {
+        top: 2.5rem;
+        left: 2.2rem;
+    }
+
+    .tile {
+        top: .4rem;
+        left: 1rem;
+    }
+
+    .text-frofile {
+        font-size: .6rem;
+        left: 1rem;
+    }
+
+    .con-img {
+        width: 140px;
+    }
+}
+
+
 
