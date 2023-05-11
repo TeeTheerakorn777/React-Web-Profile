@@ -440,5 +440,68 @@
     }
 }
 
+@media screen and (max-width: 361px) {
+    .con-project {
+        width: 280px;
+    }
+
+    .con-title {
+        width: 110px;
+        margin-left: 10rem;
+    }
+
+    .tile h3{
+        font-size: .7rem;
+    }
+
+    .info1 .fa-react, .info1 .fa-css3-alt, .info .fa-js, .info .fa-html5, .info .fa-css3-alt{
+        font-size: 1.5rem;
+        padding: 0 0.2rem;
+    }
+
+    .info {
+        top: 3.5rem;
+        left: 1.2rem;
+    }
+
+    .text-figma {
+        font-size: .6rem;
+        left: 1rem;
+        top: 4.6rem;
+    }
+
+    .btn-title {
+        left: 1rem;
+    }
+
+    .tile1 h3{
+        font-size: .8rem;
+    }
+    
+    .tile1 {
+        left: 1rem;
+    }
+
+    .info1 {
+        top: 2.5rem;
+        left: 1.7rem;
+    }
+
+    .tile {
+        left: .2rem;
+        text-align: center;
+    }
+
+    .text-frofile {
+        font-size: .6rem;
+        top: 3.7rem;
+        left: .8rem;
+    }
+
+    .con-img {
+        width: 140px;
+    }
+}
+
 
 
