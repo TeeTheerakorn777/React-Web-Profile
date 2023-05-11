@@ -1,6 +1,6 @@
 .container-project {
     margin-top: 3rem;
-    font-family: 'Unbounded', cursive;
+    font-family: 'Unbounded', 'Kanit', cursive, sans-serif;
 }
 
 .text-project {
@@ -49,7 +49,7 @@
   }
 
 .con-card-pro {
-    margin-top: 4rem;
+    margin-top: 3rem;
     height: auto;
     display: grid;
     place-items: center;
@@ -149,7 +149,7 @@
 .btn-title {
     position: absolute;
     bottom: 2.5rem;
-    left: 9rem;
+    left: 9.5rem;
 }
 
 .btn-title button {
@@ -224,6 +224,98 @@
     background: linear-gradient(45deg, #ff0058,#ffbc00);
     filter: blur(30px);
     z-index: -1;
+}
+
+@media screen and (max-width: 491px) {
+    .con-project:hover{
+        transform: scale(1);
+    }
+    
+    .con-title {
+        pointer-events: none;
+    }
+
+    .con-project {
+        width: 390px;
+    }
+    
+    .con-img {
+        top: 0;
+        width: 200px;
+        position: absolute;
+        left: 0.5rem;
+    }
+    
+    .con-img img {
+        width: 100%;
+        border-radius: 20px;
+        height: 150px;
+    }
+    
+    .con-title {
+        background-color: rgba(0, 0, 0, 0.5);
+        margin-left: 13.8rem;
+        width: 160px;
+        opacity: 1;
+        height:150px;
+        top: 0;
+    }
+
+    .tile h3{
+        font-size: .7rem;
+    }
+
+    .info1 .fa-react, .info1 .fa-css3-alt, .info .fa-js, .info .fa-html5, .info .fa-css3-alt{
+        font-size: 2rem;
+        padding: 0 0.3rem;
+    }
+
+    .info {
+        top: 2.4rem;
+        left: 1.6rem;
+    }
+
+    .text-figma {
+        top: 4.2rem;
+        font-size: .7rem;
+        left: 1.9rem;
+        
+    }
+
+    .btn-title {
+        left: 2.5rem;
+        bottom: .8rem;
+    }
+
+    .btn-title button{
+        width: 80px;
+        height: 30px;
+    }
+
+    .tile1 h3{
+        font-size: .8rem;
+    }
+    
+    .tile1 {
+        left: 2.8rem;
+    }
+
+    .info1 {
+        top: 2.5rem;
+        left: 2.7rem;
+    }
+
+    .tile {
+        top: 0rem;
+        left: 1.5rem;
+    }
+
+    .text-frofile {
+        top: 4.5rem;
+        font-size: .6rem;
+        left: 1.2rem;
+    }
+
 }
 
 @media screen and (max-width: 481px) {
