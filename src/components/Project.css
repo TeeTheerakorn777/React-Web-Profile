@@ -226,7 +226,7 @@
     z-index: -1;
 }
 
-@media screen and (max-width: 491px) {
+@media  screen and (max-width: 512px) {
     .con-project:hover{
         transform: scale(1);
     }
@@ -318,7 +318,99 @@
 
 }
 
-@media screen and (max-width: 481px) {
+@media  screen and (max-width: 491px) {
+    .con-project:hover{
+        transform: scale(1);
+    }
+    
+    .con-title {
+        pointer-events: none;
+    }
+
+    .con-project {
+        width: 370px;
+    }
+    
+    .con-img {
+        top: 0;
+        width: 200px;
+        position: absolute;
+        left: 0.5rem;
+    }
+    
+    .con-img img {
+        width: 100%;
+        border-radius: 20px;
+        height: 150px;
+    }
+    
+    .con-title {
+        background-color: rgba(0, 0, 0, 0.5);
+        margin-left: 13.8rem;
+        width: 160px;
+        opacity: 1;
+        height:150px;
+        top: 0;
+    }
+
+    .tile h3{
+        font-size: .7rem;
+    }
+
+    .info1 .fa-react, .info1 .fa-css3-alt, .info .fa-js, .info .fa-html5, .info .fa-css3-alt{
+        font-size: 2rem;
+        padding: 0 0.3rem;
+    }
+
+    .info {
+        top: 2.4rem;
+        left: 1.6rem;
+    }
+
+    .text-figma {
+        top: 4.2rem;
+        font-size: .7rem;
+        left: 1.9rem;
+        
+    }
+
+    .btn-title {
+        left: 2.5rem;
+        bottom: .8rem;
+    }
+
+    .btn-title button{
+        width: 80px;
+        height: 30px;
+    }
+
+    .tile1 h3{
+        font-size: .8rem;
+    }
+    
+    .tile1 {
+        left: 2.8rem;
+    }
+
+    .info1 {
+        top: 2.5rem;
+        left: 2.7rem;
+    }
+
+    .tile {
+        top: 0rem;
+        left: 1.5rem;
+    }
+
+    .text-frofile {
+        top: 4.5rem;
+        font-size: .6rem;
+        left: 1.2rem;
+    }
+
+}
+
+@media  screen and (max-width: 484px) {
     .con-project:hover{
         transform: scale(1);
     }
@@ -406,18 +498,109 @@
         top: 4.5rem;
         font-size: .6rem;
         left: 1.2rem;
+    }
+
+}
+
+@media  screen and (max-width: 451px) {
+    .con-project:hover{
+        transform: scale(1);
+    }
+    
+    .con-title {
+        pointer-events: none;
+    }
+
+    .con-project {
+        width: 360px;
+    }
+    
+    .con-img {
+        top: 0;
+        width: 200px;
+        position: absolute;
+        left: 0.5rem;
+    }
+    
+    .con-img img {
+        width: 100%;
+        border-radius: 20px;
+        height: 150px;
+    }
+    
+    .con-title {
+        background-color: rgba(0, 0, 0, 0.5);
+        margin-left: 13.8rem;
+        width: 130px;
+        opacity: 1;
+        height:150px;
+        top: 0;
+    }
+
+    .tile h3{
+        font-size: .7rem;
+    }
+
+    .info1 .fa-react, .info1 .fa-css3-alt, .info .fa-js, .info .fa-html5, .info .fa-css3-alt{
+        font-size: 1.5rem;
+        padding: 0 0.3rem;
+    }
+
+    .info {
+        top: 2.4rem;
+        left: 1.4rem;
+    }
+
+    .text-figma {
+        top: 4.2rem;
+        font-size: .7rem;
+        left: .9rem;
+    }
+
+    .btn-title {
+        left: 1.6rem;
+        bottom: .8rem;
+    }
+
+    .btn-title button{
+        width: 80px;
+        height: 30px;
+    }
+
+    .tile1 h3{
+        font-size: .8rem;
+    }
+    
+    .tile1 {
+        left: 1.7rem;
+    }
+
+    .info1 {
+        top: 2.5rem;
+        left: 2rem;
+    }
+
+    .tile {
+        top: 0rem;
+        left: .4rem;
+    }
+
+    .text-frofile {
+        top: 4rem;
+        font-size: .6rem;
+        left: 0.3rem;
     }
 
 }
 
 @media screen and (max-width: 421px) {
     .con-project {
-        width: 350px;
+        width: 300px;
     }
 
     .con-title {
-        width: 160px;
-        margin-left: 11.2rem;
+        width: 140px;
+        margin-left: 9.5rem;
     }
 
     .tile h3{
@@ -431,16 +614,16 @@
 
     .info {
         top: 2.6rem;
-        left: 1.6rem;
+        left: 1rem;
     }
 
     .text-figma {
         font-size: .7rem;
-        left: 1.8rem;
+        left: 1.4rem;
     }
 
     .btn-title {
-        left: 2.5rem;
+        left: 1.9rem;
     }
 
     .tile1 h3{
@@ -448,37 +631,39 @@
     }
     
     .tile1 {
-        left: 2.5rem;
+        left: 2rem;
     }
 
     .info1 {
-        top: 2.5rem;
-        left: 2.4rem;
+        top: 2.3rem;
+        left: 2rem;
     }
 
     .tile {
         top: .4rem;
+        left: 0.7rem;
     }
 
     .text-frofile {
+        top: 4.3rem;
         font-size: .6rem;
-        left: 1.3rem;
+        left: .6rem;
     }
 
     .con-img {
-        width: 160px;
+        width: 140px;
     }
 
 }
 
-@media screen and (max-width: 391px) {
+@media  screen and (max-width: 391px) {
     .con-project {
-        width: 320px;
+        width: 300px;
     }
 
     .con-title {
-        width: 150px;
-        margin-left: 10rem;
+        width: 140px;
+        margin-left: 9.7rem;
     }
 
     .tile h3{
@@ -532,7 +717,7 @@
     }
 }
 
-@media screen and (max-width: 361px) {
+@media  screen and (max-width: 361px) {
     .con-project {
         width: 280px;
     }
